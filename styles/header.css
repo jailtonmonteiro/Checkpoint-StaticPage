@@ -1,0 +1,42 @@
+.cabecalho {
+    margin: 2em 20vw;
+    text-align: center;
+    font-size: 24px;
+}
+
+.cabecalho__menu-linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+.cabecalho__menu-home,
+.cabecalho__menu-link {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.cabecalho__menu-link {
+    margin-left: 1.2em;
+}
+
+.cabecalho__logo {
+    width: 10vw;
+    margin-bottom: 1em;
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 85px;
+    color: var(--vermelho-destaque);
+}
+
+.cabecalho__subtitulo {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 43px;
+    color: var(--branco);
+}
