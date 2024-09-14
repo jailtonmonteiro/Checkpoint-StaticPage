@@ -16,4 +16,5 @@
 body {
     background: var(--cor-fundo);
     font-family: var(--fonte-texto);
+    font-weight: 400;
 }
