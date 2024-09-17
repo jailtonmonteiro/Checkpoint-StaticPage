@@ -1,0 +1,51 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--cinza-texto);
+    padding: 2em 10vw 10vw 10vw;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.rodape__link-home,
+.rodape__link-social {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.rodape__link-home {
+    font-size: 20px;
+}
+
+.rodape__link-home:hover {
+    color: var(--vermelho-destaque);
+}
+
+.rodape__link-social {
+
+    background: radial-gradient(circle at 100% 100%, #232830 0, #232830 12px, transparent 12px) 0% 0%/16px 16px no-repeat,
+        radial-gradient(circle at 0 100%, #232830 0, #232830 12px, transparent 12px) 100% 0%/16px 16px no-repeat,
+        radial-gradient(circle at 100% 0, #232830 0, #232830 12px, transparent 12px) 0% 100%/16px 16px no-repeat,
+        radial-gradient(circle at 0 0, #232830 0, #232830 12px, transparent 12px) 100% 100%/16px 16px no-repeat,
+        linear-gradient(#232830, #232830) 50% 50%/calc(100% - 8px) calc(100% - 32px) no-repeat,
+        linear-gradient(#232830, #232830) 50% 50%/calc(100% - 32px) calc(100% - 8px) no-repeat,
+        linear-gradient(69deg, #cea61b 0%, #e427a3 37.828%, #921af0 51.181%, #ef029b 91.032%, #e5319e 100%);
+    border-radius: 16px;
+    padding: 0.4em 1em;
+
+    font-size: 19px;
+}
+
+.rodape__link-social:hover {
+    border-radius: 16px;
+    background: #833ab4;
+    background: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045);
+    padding: 0.4em 1em;
+}
+
+
+.rodape__link-img {
+    width: 20px;
+    height: 20px;
+}

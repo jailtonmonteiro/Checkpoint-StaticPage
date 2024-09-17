@@ -2,6 +2,7 @@
 
 @import url('./header.css');
 @import url('./main.css');
+@import url('./footer.css');
 
 :root {
     --branco: #FFFFFF;
@@ -9,7 +10,10 @@
     --vermelho-destaque: #FF7575;
     --cinza-texto: #909090;
 
-    --fonte-titulo: 'Recursive', sans-serif;
+    --roxo: #833ab4;
+    --gradiente: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045) --fonte-titulo: 'Recursive', sans-serif;
+            
     --fonte-texto: 'Poppins', sans-serif;
 }
 
